@@ -236,11 +236,12 @@ ranked = rank(clusters)
 # ---------------------------
 col1, col2 = st.columns([1,1])
 
-with col1:
-    min_sources = st.slider("Signal Strength (min sources)", 1, 5, 1)
-
-with col2:
-    limit = st.slider("Max Stories", 5, 30, 15)
+#with col1:
+#    min_sources = st.slider("Signal Strength (min sources)", 1, 5, 1)
+min_sources = 1
+#with col2:
+#    limit = st.slider("Max Stories", 5, 30, 15)
+limit = 30
 
 # ---------------------------
 # DISPLAY
@@ -319,10 +320,6 @@ st.markdown("""
     <div>Real-time signal detection for the gaming industry</div>
     <br>
     <div>
-        <a href="#">About</a> •
-        <a href="#">Contact</a> •
-        <a href="#">Privacy</a> •
-        <a href="#">Terms</a>
     </div>
     <br>
     <div>© 2026 Starlink Intelligence • Built with Streamlit</div>
