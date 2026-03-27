@@ -99,7 +99,7 @@ a {
 </style>
 """, unsafe_allow_html=True)
 
-st.title("🛰️ Starlink Gaming Intelligence Feed")
+st.title("Starlink Gaming Intelligence Feed")
 st.caption("Aggregated • Deduplicated • Smart Ranked")
 
 # ---------------------------
@@ -319,7 +319,11 @@ st.markdown("""
     <div><strong>Starlink Gaming Intelligence</strong></div>
     <div>Real-time signal detection for the gaming industry</div>
     <br>
-    <div>
+    <div style="text-align:center; font-size:12px; color:#888;">
+        Built with 🛰️ by <b>Dr. Benjamin Henrich</b> <br><br>
+        <a href="https://www.linkedin.com/in/benjamin-m-abdel-karim-b48948180">
+            🔗 Connect on LinkedIn
+        </a>
     </div>
     <br>
     <div>© 2026 Starlink Intelligence • Built with Streamlit</div>
